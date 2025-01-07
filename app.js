@@ -56,25 +56,3 @@ function calculatedFunction(){
     console.log(calculatedpayments);
 
 }
-
-// function showError(error){
-//     const errorDiv = document.createElement('p');
-//     // Get elements
-//     const card = document. querySelector('.card-body');
-//     const heading = document. querySelector('.card-title');
-//     // Add class
-//     errorDiv.classList = 'alert alert-danger';
-//     // Create text node and append to div
-//     errorDiv.appendChild(document.createTextNode(error));
-//     // Insert error above heading
-//     card.insertBefore(errorDiv, heading);
-//     // setTimeout(clearErr, 3000);
-//     console.log(errorDiv);
-//     setTimeout(function clearErr(){
-//         document.querySelector(".alert").remove();
-//     },3000);
-// }
-
-// function clearErr(){
-//     document.querySelector(".alert").remove();
-// }
